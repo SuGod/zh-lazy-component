@@ -1,17 +1,17 @@
 {
   "name": "zh-lazy-component",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "组件懒加载",
   "author": {
     "name": "Zeddy",
     "url": "http://zeddy.site"
   },
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/SuGod/zh-lazy-component",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/SuGod/zh-lazy-component.git"
   },
   "keywords": [
     "vue.js",
@@ -22,8 +22,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name zh-lazy-component --dest lib ./src/index.js",
-    "lint": "vue-cli-service lint"
+    "lib": "vue-cli-service build --target lib --name zhLazyComponent --dest lib ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "prepublish": "npm run lib"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

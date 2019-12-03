@@ -1,7 +1,5 @@
 ## 使用
 
-### 2. 模版语法
-
 ```html
  <zh-lazy-component @init="init" @beforeInit="beforeInit" >
   <!-- real component-->

@@ -1,15 +1,29 @@
 {
   "name": "zh-lazy-component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "组件懒加载",
+  "author": {
+    "name": "Zeddy",
+    "url": "http://zeddy.site"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "vue.js",
+    "vue-plugin",
+    "vue-component",
+    "lazy-load"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name zh-lazy-component --dest lib ./src/index.js",
     "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.4.3",
-    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -20,7 +34,9 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^9.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "core-js": "^3.4.3",
+    "vue": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,

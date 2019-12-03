@@ -29,4 +29,4 @@
 | before-leave | 骨架组件开始离开 | el |
 | after-leave | 骨架组件已经离开 | el |
 | after-enter | 懒加载模快已经进入 | el |
-| after-init | 初始化完成 | - | el |
+| after-init | 初始化完成 | el |

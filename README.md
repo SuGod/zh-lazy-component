@@ -1,5 +1,11 @@
 ## 使用
 
+```bash
+npm install zh-lazy-component --save
+// or
+yarn add zh-lazy-component
+```
+
 ```html
  <zh-lazy-component @init="init" @beforeInit="beforeInit" >
   <!-- real component-->

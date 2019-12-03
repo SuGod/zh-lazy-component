@@ -22,9 +22,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name zhLazyComponent --dest lib ./src/index.js",
-    "lint": "vue-cli-service lint",
-    "prepublish": "npm run lib"
+    "lib": "vue-cli-service build --target lib --name zh-lazy-component --dest lib src/index.js && rm -rf ./lib/demo.html",
+    "lint": "vue-cli-service lint"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

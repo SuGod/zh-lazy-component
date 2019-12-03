@@ -1,6 +1,5 @@
 const path = require('path')
 module.exports = {
-  publicPath: '/dist/',
   css: {
     extract: false
   },
